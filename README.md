@@ -14,11 +14,27 @@ EGC-Stream is a lightweight 128-bit stream cipher designed for resource-constrai
 
 ## Installation
 
+### Clone the Repository
+```bash
+# Clone via HTTPS
+git clone https://github.com/susantha-wijesinghe/EGC-Stream_Cipher.git
+cd EGC-Stream_Cipher
+```
+
+**Alternative cloning methods:**
+```bash
+# Clone via SSH (if you have SSH keys configured)
+git clone git@github.com:susantha-wijesinghe/EGC-Stream_Cipher.git
+
+# Clone via GitHub CLI
+gh repo clone susantha-wijesinghe/EGC-Stream_Cipher
+```
+
 ### Python Implementation
 ```bash
 # Clone repository
 git clone https://github.com/yourusername/egc-stream.git
-cd egc-stream
+cd EGC-Stream_Cipher
 
 # Run Python implementation
 python EGC_Stream_Cipher.py
