@@ -30,6 +30,14 @@ git clone git@github.com:susantha-wijesinghe/EGC-Stream_Cipher.git
 gh repo clone susantha-wijesinghe/EGC-Stream_Cipher
 ```
 
+### Python Implementation
+```bash
+
+cd EGC-Stream_Cipher
+
+# Run Python implementation
+python EGC_Stream_Cipher.py
+```
 
 **Requirements:** Python 3.8 or later
 
