@@ -39,6 +39,20 @@
  *   3. Constant-time implementation review
  *
  * ============================================================================
+ *
+ * This code accompanies the paper:
+ *
+ * ...
+ * This code accompanies the paper:
+ *     W.A. Susantha Wijesinghe, "EGC-Stream: Design, Cryptanalysis, and 
+ *     Hardware Evaluation of an Expander-Graph–Based Stream Cipher,"
+ *     Cryptology ePrint Archive, Report 2026/009, 2026.
+ *     https://eprint.iacr.org/2026/009
+ *
+ * License: MIT License
+ * Repository: https://github.com/susantha-wijesinghe/EGC-Stream_Cipher
+ * ...
+ *
  */
 
 #include <stdio.h>
