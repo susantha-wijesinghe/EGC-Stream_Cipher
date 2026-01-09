@@ -97,24 +97,36 @@ Selected test vectors from the paper (first 128 keystream bits in hexadecimal):
 
 Complete test vectors are included in the source files.
 
+
+
+# EGC-Stream: Expander-Graph-Based Stream Cipher
+
+[![IACR ePrint](https://img.shields.io/badge/IACR-2026/009-blue.svg)](https://eprint.iacr.org/2026/009)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub](https://img.shields.io/badge/GitHub-EGC--Stream-blue.svg)](https://github.com/susantha-wijesinghe/EGC-Stream_Cipher)
+
+Reference implementation of EGC-Stream, a hardware-oriented synchronous stream 
+cipher based on expander graph topology.
+
 ## Citation
 
-This code accompanies the paper:
+This repository accompanies the paper:
 
 > **W.A. Susantha Wijesinghe**, "EGC-Stream: Design, Cryptanalysis, and Hardware 
-> Evaluation of an Expander-Graph–Based Stream Cipher," *IEEE Transactions on 
-> Information Forensics and Security*, 2025 (submitted for publication).
+> Evaluation of an Expander-Graph–Based Stream Cipher," *Cryptology ePrint Archive*, 
+> Report 2026/009, 2026. https://eprint.iacr.org/2026/009
+
+**Status:** Submitted to IEEE Transactions on Information Forensics and Security
+
+### BibTeX
 ```bibtex
-@article{wijesinghe2025egcstream,
-  author   = {Wijesinghe, W. A. Susantha},
-  title    = {{EGC-Stream}: Design, Cryptanalysis, and Hardware Evaluation 
-              of an Expander-Graph--Based Stream Cipher},
-  journal  = {IEEE Transactions on Information Forensics and Security},
-  year     = {2025},
-  note     = {Submitted for publication},
-  url      = {https://github.com/yourusername/egc-stream},
-  keywords = {stream cipher, lightweight cryptography, expander graphs, 
-              FPGA implementation, hardware security}
+@misc{cryptoeprint:2026/009,
+    author       = {W. A. Susantha Wijesinghe},
+    title        = {{EGC-Stream}: Design, Cryptanalysis, and Hardware Evaluation 
+                    of an Expander-Graph--Based Stream Cipher},
+    howpublished = {Cryptology {ePrint} Archive, Paper 2026/009},
+    year         = {2026},
+    url          = {https://eprint.iacr.org/2026/009}
 }
 ```
 
